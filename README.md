@@ -1,5 +1,3 @@
-# Project-Currency-Converter
-
 ## CURRENCY CONVERTER (PYTHON, OOP)
 -   A simple and professional Currency Converter built with Python using Object-Oriented Programming (OOP).
 -   It fetches live exchange rates from Exchangerate.host API and allows users to convert between different currencies directly from the terminal.
