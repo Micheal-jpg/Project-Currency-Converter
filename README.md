@@ -10,9 +10,11 @@
 - Clean formatting for conversion results.
 
 ## PROJECT STRUCTURE
-- Project-Currency-Converter/
-- │── currency_converter.py
-- │── README.md              
+```bash
+Project-Currency-Converter/
+│── currency_converter.py
+│── README.md    
+```          
 
 ## INSTALLATION & USAGE
 ### 1. Clone the Repository
@@ -29,10 +31,13 @@ Python currency_converter.py
 ```
 
 4. Example Run
-- Enter amount: 100
-- From currency (e.g. USD, EUR): usd
-- To currency (e.g. NGN, GBP): ngn
-- 100 USD = 160000.00 NGN
+```bash
+ Enter amount: 100
+ From currency (e.g. USD, EUR): usd
+ To currency (e.g. NGN, GBP): ngn
+
+ 100 USD = 160000.00 NGN
+ ```
 
 ## TECHNOLOGIES USED
 - Python 3
