@@ -11,7 +11,7 @@
 
 ## PROJECT STRUCTURE
 ```bash
-Project-Currency-Converter/
+PROJECT-CURRENCY-CONVERTER/
 │── currency_converter.py
 │── README.md    
 ```          
@@ -27,7 +27,7 @@ Make sure you have Python 3 installed, then install the required library:
 pip install requests
 
 3. Run the Program
-Python currency_converter.py
+python currency_converter.py
 ```
 
 4. Example Run
@@ -51,12 +51,16 @@ Python currency_converter.py
 ([Exchangerate.host API](https://open.er-api.com/v6/latest/USD))
 
 2. The user enters:
-- Amount to convert
-- Source currency(e.g. USD)
-- Target currency(e.g. EUR)
+```bash
+Amount to convert
+Source currency(e.g. USD, NGN, EUR)
+Target currency(e.g. EUR, AUD, GBP)
+```
 
 3. The program calculates the conversion using:
-- converted = amount x (rate_target / rate_source)
+```bash
+converted = amount x (rate_target / rate_source)
+```
 
 4. The result is displayed with 2 decimal places for clarity
 
