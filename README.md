@@ -12,32 +12,35 @@
 ## PROJECT STRUCTURE
 ```bash
 PROJECT-CURRENCY-CONVERTER/
-│── currency_converter.py
-│── README.md    
+│── currency_converter.py  # Main Python program
+│── README.md              # Project documentation
 ```          
 
 ## INSTALLATION & USAGE
-### 1. Clone the Repository
+1. Clone the Repository
 ```bash
 git clone https://github.com/Micheal-jpg/Project-Currency-Converter.git 
 cd Project-Currency-Converter
-
-2. Install Dependencies
-Make sure you have Python 3 installed, then install the required library:
-pip install requests
-
-3. Run the Program
-python currency_converter.py
 ```
 
-4. Example Run
+2. Install Dependencies
 ```bash
- Enter amount: 100
- From currency (e.g. USD, EUR): usd
- To currency (e.g. NGN, GBP): ngn
+Make sure you have Python 3 installed, then install the required library:
+pip install requests
+```
 
- 100 USD = 160000.00 NGN
- ```
+3. Run the Program
+```bash
+python currency_converter.py
+```
+Example Run
+```bash
+Enter amount: 100
+From currency (e.g. USD, EUR): usd
+To currency (e.g. NGN, GBP): ngn
+
+100 USD = 160000.00 NGN
+```
 
 ## TECHNOLOGIES USED
 - Python 3
@@ -51,11 +54,9 @@ python currency_converter.py
 ([Exchangerate.host API](https://open.er-api.com/v6/latest/USD))
 
 2. The user enters:
-```bash
-Amount to convert
-Source currency(e.g. USD, NGN, EUR)
-Target currency(e.g. EUR, AUD, GBP)
-```
+- Amount to convert
+- Source currency(e.g. USD, NGN, EUR)
+- Target currency(e.g. EUR, AUD, GBP)
 
 3. The program calculates the conversion using:
 ```bash
