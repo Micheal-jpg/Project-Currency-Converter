@@ -10,28 +10,28 @@
 - Clean formatting for conversion results.
 
 ## PROJECT STRUCTURE
-Project-Currency-Converter/
-- │── CurrencyConverter.py   # Main Python script
-- │── README.md              # Project documentation
+- Project-Currency-Converter/
+- │── currency_converter.py
+- │── README.md              
 
 ## INSTALLATION & USAGE
-1. Clone the Repository
-- `git clone https://github.com/Micheal-jpg/Project-Currency-Converter.git `
-- cd currency_converter
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Micheal-jpg/Project-Currency-Converter.git 
+cd Project-Currency-Converter
 
 2. Install Dependencies
-- Make sure you have Python 3 installed.
-- install the required library:
+Make sure you have Python 3 installed, then install the required library:
 pip install requests
 
 3. Run the Program
-- python currency_converter.py
+Python currency_converter.py
+```
 
 4. Example Run
 - Enter amount: 100
 - From currency (e.g. USD, EUR): usd
 - To currency (e.g. NGN, GBP): ngn
-
 - 100 USD = 160000.00 NGN
 
 ## TECHNOLOGIES USED
@@ -43,7 +43,7 @@ pip install requests
 
 ## HOW IT WORKS
 1. The program fetches exchange rates from the API
-([ExchangeRate API](https://api.exchangerate.host/latest))
+([Exchangerate.host API](https://open.er-api.com/v6/latest/USD))
 
 2. The user enters:
 - Amount to convert
