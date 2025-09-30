@@ -1,6 +1,8 @@
 ## CURRENCY CONVERTER (PYTHON, OOP)
 -   A simple and professional Currency Converter built with Python using Object-Oriented Programming (OOP).
 -   It fetches live exchange rates from Exchangerate.host API and allows users to convert between different currencies directly from the terminal.
+-   Now updated with **currency symbols** (e.g., `$`, `€`, `₦`) for a more user-friendly experience.  
+
 
 ## FEATURES
 - Convert between any two supported currencies (not just from a base currency).
@@ -8,6 +10,8 @@
 - Handles invalid inputs gracefully with error messages.
 - Designed with OOP principles for readability and scalability.
 - Clean formatting for conversion results.
+- Displays results with currency symbols for better readability.
+- Supports multiple currencies.
 
 ## PROJECT STRUCTURE
 ```bash
@@ -35,11 +39,11 @@ python currency_converter.py
 ```
 Example Run
 ```bash
-Enter amount: 100
+Enter amount: 50
 From currency (e.g. USD, EUR): usd
 To currency (e.g. NGN, GBP): ngn
 
-100 USD = 160000.00 NGN
+100 $ (USD) = 160000.00 ₦ (NGN)
 ```
 
 ## TECHNOLOGIES USED

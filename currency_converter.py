@@ -1,5 +1,20 @@
 import requests
 
+CURRENCY_SYMBOLS = {
+    "USD": "$",
+    "EUR": "€",
+    "GBP": "£",
+    "JPY": "¥",
+    "NGN": "₦",
+    "INR": "₹",
+    "CAD": "C$",
+    "AUD": "A$",
+    "CHF": "CHF",   # Swiss Franc
+    "CNY": "¥",    # Chinese Yuan
+    "ZAR": "R",    # South African Rand
+}
+
+
 class CurrencyConverter:
     def __init__(self, base_currency="USD"):
         """
@@ -67,6 +82,11 @@ if __name__ == "__main__":
 
         try:
             result = converter.convert(amount, from_curr, to_curr)
-            print(f"{amount} {from_curr.upper()} = {result:.2f} {to_curr.upper()}\n")
+            
+            from_symbol = CURRENCY_SYMBOLS.get(from_curr.upper(), "")
+            to_symbol = CURRENCY_SYMBOLS.get(to_curr.upper(), "")
+
+
+            print(f"{amount:,.2f} {from_symbol} ({from_curr.upper()}) = {result:,.2f} {to_symbol} ({to_curr.upper()})\n")
         except Exception as e:
             print(f"Error: {e}\n")    
