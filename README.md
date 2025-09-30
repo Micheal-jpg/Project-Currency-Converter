@@ -1,3 +1,5 @@
+# RateWise
+
 ## CURRENCY CONVERTER (PYTHON, OOP)
 -   A simple and professional Currency Converter built with Python using Object-Oriented Programming (OOP).
 -   It fetches live exchange rates from Exchangerate.host API and allows users to convert between different currencies directly from the terminal.
@@ -71,7 +73,6 @@ converted = amount x (rate_target / rate_source)
 
 ## FUTURE IMPROVEMENTS
 - Add a GUI with Tkinter or PyQt for a better user experience
-- Add currency symbols ($).
 - Add support for historical rates and conversion charts
 
 
